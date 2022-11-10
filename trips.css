@@ -1,0 +1,41 @@
+    #mid {
+        text-align: center;
+    }
+
+    #mid button {
+        padding: 7%;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+        background: #000099;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .io>div{
+        display: flex;
+        border: 1px solid grey;
+        text-align: left;
+        gap:90px;
+        width: 30%;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding-left: 15px;
+        cursor: pointer;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+
+    .io{
+        display: grid;
+    }
+
+    .io h2{
+        font-weight: bolder;
+    }
+
+    .container{
+        padding-bottom: 15%;
+    }
