@@ -11,7 +11,7 @@
 
         <div class="nav">
             <section class="revv">
-                <img src="Travel-Hut.png">
+                <img onclick="index()" src="Travel-Hut.png">
                 <select name="" id="blue">
                     <option value="l">Packages</option>
                     <option value="l">Stays</option>
@@ -28,7 +28,7 @@
             </section>
             <ul>
                 <li><a href="property_info.html">List of property</a></li>
-                <li><a href="#">Support</a></li>
+                <li><a href="support.html">Support</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="sign_in.html">Sign in</a></li>
             </ul>
@@ -163,7 +163,7 @@
             </div>
             <div>
                 <div>
-                    <h1>Wander Wisely with the Travelocity app</h1>
+                    <h1>Wander Wisely with the Travel-Hut app</h1>
                     <ul>
                         <li>Get helpful alerts about flight status and gate numbers</li>
                         <li>Access all your travel details, even when offline</li>
@@ -174,13 +174,13 @@
                 <div id="tio">
                     <div>
                         <select name="" id="lev">
-                            <option value="">USA +1</option>
-                            <option value="">IND +91</option>
-                            <option value="">BD +88</option>
+                            <option value="1">USA +1</option>
+                            <option value="2">IND +91</option>
+                            <option value="3">BD +88</option>
                         </select>
                     </div>
-                    <div>
-                        <input type="number" placeholder="Phone number">
+                    <div id="ol">
+                        <input type="number" placeholder="Phone number" max="9">
                     </div>
                     <div id="li">
                         <button>Get the app</button>
@@ -342,3 +342,4 @@
 
 </html>
 <script src="index.js"></script>
+<script src="card.js"></script>
